@@ -16,7 +16,7 @@
  * A constant value of 0.5 for soil porosity is used, which should be updated from select soil (missing porosity)
  */
 
-namespace BioCroBML
+namespace MiscanthusBML
 {
 class miscanthus_senescence : public differential_module
 {
@@ -249,6 +249,6 @@ void miscanthus_senescence::do_operation() const
     update(RhizomeLitter_op, dRhizomeLitter); // Mg/ha
     
 }
-} // namespace BioCroBML
+} // namespace MiscanthusBML
 #endif
 

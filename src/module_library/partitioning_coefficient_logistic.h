@@ -5,7 +5,7 @@
 #include "../framework/state_map.h"
 #include <cmath>  // for exp
 
-namespace BioCroBML
+namespace MiscanthusBML
 {
 double strength_term(double const alpha, double const beta, double const DVI);
 
@@ -205,5 +205,5 @@ double strength_term(double const alpha, double const beta, double const DVI)
     return exp(alpha + beta * DVI);  // dimensionless
 }
 
-}  // namespace BioCroBML
+}  // namespace MiscanthusBML
 #endif

@@ -1,1 +1,1 @@
-useDynLib(BioCroBML, .registration = TRUE)
+useDynLib(MiscanthusBML, .registration = TRUE)

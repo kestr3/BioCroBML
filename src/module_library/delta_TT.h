@@ -4,7 +4,7 @@
 #include "../framework/module.h"
 #include "../framework/state_map.h"
 
-namespace BioCroBML
+namespace MiscanthusBML
 {
 /**
  * // adapted from Mathews-Research-Group/biomass-crops-marginal-land
@@ -163,5 +163,5 @@ void delta_TT::do_operation() const
     update(delta_TT_op, rate_per_hour_delta);
 }
 
-}  // namespace BioCroBML
+}  // namespace MiscanthusBML
 #endif

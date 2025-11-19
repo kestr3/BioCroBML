@@ -10,7 +10,7 @@
 #include "skeleton_version.h"
 
 using std::string;
-using BioCroBML::skeleton_version;
+using MiscanthusBML::skeleton_version;
 
 extern "C" {
 /**

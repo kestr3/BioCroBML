@@ -1,5 +1,5 @@
 library(BioCro) #using develop branch
-library(BioCroBML)
+library(MiscanthusBML)
 #Yufeng He: Dec 12, 2022 and adapted by Kacey Estrella Nov 2025
 
 run_cwrfsoilwater=FALSE
@@ -18,14 +18,14 @@ miscanthus_x_giganteus <- list(
     "BioCro:canopy_gbw_thornley",
     "BioCro:stefan_boltzmann_longwave",
     canopy_photosynthesis = "BioCro:c4_canopy",
-    partitioning_coefficients = "BioCroBML:partitioning_coefficient_logistic",
+    partitioning_coefficients = "MiscanthusBML:partitioning_coefficient_logistic",
     partitioning_growth_calculator = "BioCro:partitioning_growth_calculator",
     "BioCro:carbon_assimilation_to_biomass",
     "BioCro:thermal_time_development_rate_calculator",
-    "BioCroBML:delta_TT"
+    "MiscanthusBML:delta_TT"
   ),
   differential_modules = list(
-    senescence = "BioCroBML:miscanthus_senescence",
+    senescence = "MiscanthusBML:miscanthus_senescence",
     "BioCro:development_index",
     "BioCro:partitioning_growth",
     thermal_time = "BioCro:thermal_time_trilinear",

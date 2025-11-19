@@ -7,7 +7,7 @@ MODULES_TO_SKIP <- c()
 test_that("All modules are functioning correctly", {
     expect_error(
         test_module_library(
-            'BioCroBML',
+            'MiscanthusBML',
             file.path('..', 'module_test_cases'),
             MODULES_TO_SKIP
         ),

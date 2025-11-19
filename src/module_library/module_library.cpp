@@ -7,7 +7,7 @@
 #include "miscanthus_senescence.h"
 #include "delta_TT.h"
 
-creator_map BioCroBML::module_library::library_entries =
+creator_map MiscanthusBML::module_library::library_entries =
 {
 //    {"example_module", &create_mc<example_module>}
     {"partitioning_coefficient_logistic",       &create_mc<partitioning_coefficient_logistic>},

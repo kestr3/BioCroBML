@@ -3,5 +3,5 @@ library(testthat)
 library(BioCro)
 
 # Load this package and test it
-library(BioCroBML)
-test_check('BioCroBML')
+library(MiscanthusBML)
+test_check('MiscanthusBML')

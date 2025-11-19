@@ -1,5 +1,5 @@
-## BioCroBML
-BioCroBML is a module library that contains updated partitioning and senescence modules that can be used with BioCro modules to simulate dynamics of miscanthus over a growing season. An R script file called "Miscanthus partitioning singlesite calibration" in BioCroBML/calibrations/miscanthus/code/ is updated with initial values, parameters, and module lists necessary to run the partitioning model in BioCro and using three modules from BioCroBML. This skelBML was organized by Kacey Estrella in Nov 2025.
+## MiscanthusBML
+MiscanthusBML is a module library that contains updated partitioning and senescence modules that can be used with BioCro modules to simulate dynamics of miscanthus over a growing season. This skelBML was organized by Kacey Estrella in Nov 2025 and was based on Yufeng's partitioning and senescence modules in biomass-crops-marginal-land
 
 ### Installation
 
@@ -27,18 +27,18 @@ either of two methods:
 
 After obtaining a local copy of the source code, install the package from the
 command line or from within R using one of the following sets of commands. These
-assume that the source files are in a directory named  'BioCroBML'.
+assume that the source files are in a directory named  'MiscanthusBML'.
 
 - From the command line
 ```
 cd path_to_unzipped_directory
-R CMD INSTALL BioCroBML
+R CMD INSTALL MiscanthusBML
 ```
 
 - Or from within R
 ```
 setwd('path_to_unzipped_directory')
-install.packages('BioCroBML', repos=NULL, type='SOURCE')
+install.packages('MiscanthusBML', repos=NULL, type='SOURCE')
 ```
 
 ### An example
@@ -48,10 +48,10 @@ return information about one of them (`example_module`), and then run that
 module:
 ```
 library(BioCro)
-library(BioCroBML)
-get_all_modules('BioCroBML')
-module_info('BioCroBML:example_module')
-evaluate_module('BioCroBML:example_module', list(A = 1, B = 2))
+library(MiscanthusBML)
+get_all_modules('MiscanthusBML')
+module_info('MiscanthusBML:example_module')
+evaluate_module('MiscanthusBML:example_module', list(A = 1, B = 2))
 ```
 For more information about using BioCro modules in R, please see the
 [BioCro framework R package](https://github.com/biocro/biocro).
@@ -65,7 +65,7 @@ library that was used.
 
 ### License
 
-The `BioCroBML` R package is licensed under the MIT license, while the BioCro C++
+The `MiscanthusBML` R package is licensed under the MIT license, while the BioCro C++
 framework is licensed under version 3 or greater of the GNU Lesser General
 Public License (LGPL). This scheme allows people to freely develop models for
 any use (public or private) under the MIT license, but any changes to the

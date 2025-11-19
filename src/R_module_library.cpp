@@ -13,7 +13,7 @@
 #include "R_module_library.h"
 
 using std::string;
-using library = BioCroBML::module_library;
+using library = MiscanthusBML::module_library;
 
 extern "C" {
 

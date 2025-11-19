@@ -2,9 +2,9 @@
 
 \alias{module_library}
 
-\alias{BioCroBML}
+\alias{MiscanthusBML}
 
-\title{BioCroBML}
+\title{MiscanthusBML}
 
 \description{
   This R package represents a collection of BioCro modules. It is not intended
